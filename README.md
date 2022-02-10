@@ -13,5 +13,5 @@
 ## 2. 분류
 ### Python
 ### NLP
-### Git
+### Github 특강
 ### Algorithm
