@@ -1,7 +1,4 @@
 # 11720
-from sympy import continued_fraction_reduce
-
-
 n = int(input())
 N = map(int, input())
 print(sum(N))
