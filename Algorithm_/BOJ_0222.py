@@ -11,7 +11,7 @@ for i in range(N):
 sorted_num = sorted(num)
 for i in range(len(num)):
     print(sorted_num[i])
-    
+
 # 2562
 n_list = []
 for i in range(1, 10):
@@ -25,10 +25,10 @@ board = [list(input()) for row in range(8)]
 result = 0
 
 for i in range(8):
-  for j in range(8):
-    if (i+j)%2 == 0:
-      if board[i][j] == "F":
-        result += 1
+    for j in range(8):
+        if (i+j) % 2 == 0:
+            if board[i][j] == "F":
+                result += 1
 print(result)
 
 # 1032
